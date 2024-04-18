@@ -104,7 +104,7 @@ In slic3r derivatives such as PrusaSlicer and SuperSlicer, the
 following would be used:
 
 ```
-START_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature]
+START_PRINT EXTRUDER_TEMP={first_layer_temperature[0]} BED_TEMP={bed_temperature[0]}
 ```
 
 Also note that these slicers will insert their own heating codes when
